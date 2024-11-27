@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+#columns{
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.company{
+  text-align: center;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.price{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.price .header{
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li{
+  padding: 20px;
+  text-align: center;
+}
+
+.price .color{
+  background-color: silver;
+  font-size: 20px;
+}
+
+.price .color1{
+  background-color: goldenrod;
+  font-size: 20px;
+}
+
+.price .color2{
+  background-color: gold;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button:hover{
+  transform:;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
